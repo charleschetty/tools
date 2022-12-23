@@ -107,9 +107,7 @@ fn main() -> Result<()> {
         }
     }
     else {
-        for _ in 0..time_format_second{
-            sleep(Duration::from_secs(1));
-        }
+            sleep(Duration::from_secs(time_format_second));
     }
     // pb.finish_with_message("done");
 
