@@ -37,3 +37,7 @@ Example:
 timer -t "11:45:14" -c "ls -l" -f "%H:%M:%S" -d "False"
 ```
 
+Todo:
+
+- [ ] Support multi-task
+- [ ] Import tasks from file
